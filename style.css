@@ -1,0 +1,53 @@
+@media (min-width: 1200px){
+    .container {
+        width: 960px;
+    }
+}
+.search-container{
+    margin: 20px 0 40px;
+}
+.search-content{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+}
+.search-content span{
+    display: block;
+    margin-bottom: 5px;
+}
+.search-content .read-more{
+    margin-top: 10px;
+}
+.row:last-child .search-content{
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+.search-container .ms-helper {
+	display: none !important;
+}
+.ms-sel-ctn .ms-sel-item .ms-close-btn{
+	display: none;
+}
+.ms-ctn .ms-sel-item, .ms-ctn-focus .ms-sel-item:hover{
+	border: none;
+	background: transparent;
+	font-size: 14px;
+}
+.search-container .ms-ctn {
+    padding: 8px 12px 6px 20px;
+    height: 40px;
+}
+.search-container .ms-res-ctn .ms-res-item em{
+	background: green;
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
